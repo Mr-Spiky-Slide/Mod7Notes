@@ -21,5 +21,9 @@ public class Media
 
  public class Movie : Media
  {
+    public string director { get; set; }
+    public TimeSpan runningTime { get; set; }
 
+    
  }
+
