@@ -17,3 +17,9 @@ public class Media
          return $"Id: {mediaId}\nTitle: {title}\nGenres: {string.Join(", ", genres)}\n";
      }
  }
+
+
+ public class Movie : Media
+ {
+
+ }
